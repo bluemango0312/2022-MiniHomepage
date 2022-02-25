@@ -1,0 +1,89 @@
+.box2{
+    display:flex;
+    flex-direction: column;
+}
+
+.date{
+    flex:0.1;
+    display:flex;
+    border:1px solid rgb(194, 194, 194);
+    border-radius: 3px;
+    vertical-align: auto;
+    margin-bottom:15px;
+    padding:15px 5px;
+}
+
+.date_today{
+    flex:0.15;
+    color:#3984a5;
+    text-align: center;
+    font-family: 'ROKAFSansBold';
+}
+
+.date_all{
+    flex:0.85;
+    font-family: 'ROKAFSansBold';
+}
+
+p:nth-child(2){
+    color:blue;
+}
+
+.diary_contents{
+    flex:0.9;
+    border-radius: 3px;
+    vertical-align: auto;
+    overflow:auto;
+}
+
+.diary{
+    border:1px solid rgb(194, 194, 194);
+    margin-top:10px;
+    padding:30px 20px;
+    border-radius: 3px;
+    margin-bottom:20px;
+}
+
+.title{
+    margin-bottom:20px;
+}
+
+.content{
+    text-align: center;
+    font-family: 'HSYuji-Regular';
+}
+
+.secretButton{
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.secretBtn{
+    padding:10px;
+    color:white;
+    border:none;
+    background-color: white;
+}
+
+.secretBtn:hover{
+    background-color: rgb(92, 176, 255);
+    transition:800ms ease all;
+}
+
+#secret-box{
+    display:none;
+    border:1px solid rgb(194, 194, 194);
+    padding:30px 20px;
+    border-radius: 3px;
+    margin-bottom:40px;
+}
+
+.diary-date{
+    color:#3984a5;
+    margin-bottom:20px;
+}
+
+.diary_css{
+    text-align: center;
+}
