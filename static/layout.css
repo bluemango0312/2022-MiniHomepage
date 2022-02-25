@@ -137,14 +137,13 @@ body {
   }
 
  .wave{
-   margin-top:120px;
+   margin-top:170px;
+   font-family: 'Pretendard-Regular';
  }
 
 .wave  button{
   font-size: 14px;
   margin:auto;
-  padding-left:5px;
+  padding-left:15px;
   border-radius: 3px;
 }
-
-
