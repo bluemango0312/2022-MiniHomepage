@@ -1,0 +1,67 @@
+.box2{
+    overflow:auto;
+}
+
+.guestbook{
+    display:flex;
+    height:150px; height:150px;
+    margin-top:10px;
+    margin-bottom:60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_background{
+    flex:0.2;
+    width:150px; height:150px;
+    background-size:cover;
+    margin-right:20px;
+}
+
+.guestbook_title{
+    background-color: rgb(235, 235, 235);
+    padding:7px 15px;
+    font-family: 'Pretendard-Regular';
+}
+
+.guestbook_contents{
+    flex:0.8;
+    font-family: 'HSYuji-Regular';
+}
+
+.profile_img{
+    width:150px; height:150px;
+    background-size:cover;
+}
+
+#hong{
+    background-image:url("./images/hong_background.jpg");
+}
+
+#hwa{
+    background-image:url("./images/hwa_background.jpg");
+}
+
+#san{
+    background-image:url("./images/san_background.jpg");
+}
+
+#woo{
+    background-image:url("./images/woo_background.jpg");
+}
+
+#yun{
+    background-image:url("./images/yun_background.jpg");
+}
+
+#yeo{
+    background-image:url("./images/yeo_background.jpg");
+}
+
+#min{
+    background-image:url("./images/mingi_background.jpg");
+}
+
+#jong{
+    background-image:url("./images/jong_background.jpg");
+}

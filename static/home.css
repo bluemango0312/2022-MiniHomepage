@@ -1,0 +1,82 @@
+
+  .box2_1{
+    flex:0.3;
+    font-size:15px;
+    line-height: 170%;
+  }
+  
+  .box2_title1, .box2_title2{
+    color:rgb(63, 103, 163);
+    font-weight: bold;
+    border-bottom:1.5px solid gray;
+    padding-bottom:2px;
+    font-size:18px;
+    font-family: 'ROKAFSansBold';
+
+  }
+  
+  .box2_contents1{
+    font-family: 'Pretendard-Regular';
+    flex:0.5;
+    margin-top:10px;
+  }
+
+  .box2_contents2{
+    font-family: 'Pretendard-Regular';
+    flex:0.5;
+    margin-top:50px;
+    margin-left:38px;
+  }
+  
+  .photoCate{
+    background-color: rgb(255, 99, 71);
+    color:white;
+    border-radius: 5px;
+    padding:2px;
+    font-size: 14px;
+    margin:5px;
+  }
+  
+  .writeCate{
+    background-color: rgb(95, 115, 204);
+    color:white;
+    border-radius: 5px;
+    padding:2px;
+    font-size: 14px;
+    margin:5px;
+  }
+
+  .box2_container{
+    display:flex;
+  }
+  
+  .box2_2{
+    flex:0.7;
+    margin-top:40px;
+  }
+  
+  .num1{
+     float:left;
+     margin-right:40px;
+     border-bottom: 1.5px dashed gray;
+  }
+  
+  .num2{
+    float:left;
+    margin-right:55px;
+    border-bottom: 1.5px dashed gray;
+  }
+
+  .miniroomP{
+    position:absolute;
+    bottom:0px;
+    width:500px;
+    height:270px;
+  }
+
+  .miniroom{
+    position:relative;
+    width:500px;
+    background-color: #44aadb;
+    height:270px;
+  }
